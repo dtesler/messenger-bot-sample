@@ -7,8 +7,7 @@ let ninja = require('messenger-ninja-core'); // Too much time spent by author on
 if (!process.env.token) {
     throw new Error('You must specify a page access token in the token environmental variable.');
 }
-
-var bot = new ninja({
+let bot = new ninja({
     token: process.env.token // Your facebook page access token
 });
 
@@ -62,7 +61,7 @@ bot.hears(['hello', 'hi', 'sup', 'what\'s up'], function (message) {
 });
 
 function formatUptime(uptime) {
-    var unit = 'second';
+    let unit = 'second';
     if (uptime > 60) {
         uptime = uptime / 60;
         unit = 'minute';
@@ -77,4 +76,4 @@ function formatUptime(uptime) {
 
     uptime = uptime + ' ' + unit;
     return uptime;
-}
+} // Totally copied this from botkit.
