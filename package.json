@@ -1,0 +1,26 @@
+{
+  "name": "messenger-bot-sample",
+  "version": "1.0.0",
+  "description": "A sample messenger bot made with messenger.ninja",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtesler/messenger-bot-sample.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "facebook",
+    "sample",
+    "kit"
+  ],
+  "author": "David Tesler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtesler/messenger-bot-sample/issues"
+  },
+  "homepage": "https://github.com/dtesler/messenger-bot-sample#readme"
+}
