@@ -2,7 +2,7 @@
 
 // Require messengerninja
 
-let ninja = require('messenger-ninja-core'); // Too much time spent by author on googling ascii art
+let ninja = require('messengerninja-core'); // Too much time spent by author on googling ascii art
 
 if (!process.env.token) {
     throw new Error('You must specify a page access token in the token environmental variable.');
